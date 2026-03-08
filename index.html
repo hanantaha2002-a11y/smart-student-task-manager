@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Student Task Manager</title>
+</head>
+
+<body>
+
+<h1>Smart Student Task Manager</h1>
+
+<input type="text" id="taskInput" placeholder="Enter a task">
+<button onclick="addTask()">Add Task</button>
+
+<ul id="taskList"></ul>
+
+<script>
+function addTask() {
+    let taskInput = document.getElementById("taskInput");
+    let taskText = taskInput.value;
+
+    if(taskText === "") return;
+
+    let li = document.createElement("li");
+    li.textContent = taskText;
+
+    document.getElementById("taskList").appendChild(li);
+
+    taskInput.value = "";
+}
+</script>
+
+</body>
+</html>
