@@ -1,0 +1,26 @@
+# Smart Student Task Manager - PRD
+
+## Product Idea
+A web application that helps students manage study tasks and organize their time efficiently.
+
+## Problem
+Students often struggle to organize assignments, deadlines, and study priorities.
+
+## Solution
+This application allows students to create tasks, organize them by priority, and track their progress.
+
+## Key Features
+- Add study tasks
+- Set task priority
+- Track progress
+- AI suggestions for task priority
+
+## Target Users
+- University students
+- School students
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- AI APIs
